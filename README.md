@@ -46,7 +46,7 @@ If you dont trust public docker registries or want to try it out on yourself, yo
 # prerequisites: git and docker are installed
 
 # clone this project
-git clone git@github.com:hikkoiri/keycloak-multi-architecture.git
+git clone https://github.com/hikkoiri/keycloak-multi-architecture.git
 cd keycloak-multi-architecture
 
 # make the script executable
