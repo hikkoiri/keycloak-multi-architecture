@@ -25,7 +25,11 @@ Why? Also a simple answer: The official [Keycloak image on dockerhub](https://hu
 
 > **Remark #2  (also the 22.04.2020)** - JACKPOT! It can be so simple. A two-liner makes the deal. More informations can be found in the section 'How it works'.
 
-> **Remark #3  (23.04.2020)** - Just creating a public github repo & dockerhub. I will also add a test docker-compose.yml to verify the docker image on my Raspberry Pi.
+> **Remark #3  (23.04.2020)** - Just creating a public github repo & dockerhub. I will also add a test docker-compose.yml to test the docker image on my Raspberry Pi.
+
+> **Remark #4  (also the 23.04.2020)** - Hold on a second. Fedora only support armv7 until version tag 29. The latest version tag is 33?! I guess, they have their reasons.
+
+
 
 ## How it works
 
