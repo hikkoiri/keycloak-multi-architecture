@@ -53,7 +53,7 @@ chmod +x buildKeycloak.sh
 # start the script. you need to pass the your desired name for the keycloak image as parameter, like:
 # ./buildKeycloack.sh <desired_image_name>
 # for example:
-./buildKeycloak.sh multi-architecture-keycloak:0.0.1
+./buildKeycloak.sh keycloak-multi-architecture:0.0.1
 
 # et voila, the build should succeed and you can see your container image in the most recently created images
 # you may want to change the image name in this file
@@ -75,6 +75,6 @@ The built docker image is a round about 300MB bigger, than the original, but I t
 $ docker images | grep keycloak
 REPOSITORY                             TAG                 IMAGE ID            CREATED             SIZE
 jboss/keycloak                         9.0.2               dbab16e66e04        4 weeks ago         643MB
-hikkoiri/multi-architecture-keycloak   0.0.1-x86_64        bd38d15c3de6        10 minutes ago      987MB
-hikkoiri/multi-architecture-keycloak   0.0.1-armv7l        70b5568e9b95        9 seconds ago       879MB
+hikkoiri/keycloak-multi-architecture   0.0.1-x86_64        bd38d15c3de6        10 minutes ago      987MB
+hikkoiri/keycloak-multi-architecture   0.0.1-armv7l        70b5568e9b95        9 seconds ago       879MB
 ```
