@@ -16,7 +16,7 @@ sed -i '' "s/registry\.access\.redhat\.com\/ubi8-minimal/fedora/g" Dockerfile
 sed -i '' "s/microdnf/dnf/g" Dockerfile
 
 # build our own oci image
-docker build -t multi-architecture-keycloak:0.0.1 .
+docker build -t $1 .
 
 # remove intermediate files
 cd ../..
