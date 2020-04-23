@@ -25,6 +25,8 @@ Why? Also a simple answer: The official [Keycloak image on dockerhub](https://hu
 
 > **Remark #2  (also the 22.04.2020)** - JACKPOT! It can be so simple. A two-liner makes the deal. More informations can be found in the section 'How it works'.
 
+> **Remark #3  (23.04.2020)** - Just creating a public github repo & dockerhub. I will also add a test docker-compose.yml to verify the docker image on my Raspberry Pi.
+
 ## How it works
 
 UBI is a subset of the commercial Red Hat Enterprise Linux distribution. Fedora is the upstream source of RHEL.
@@ -40,8 +42,8 @@ If you dont trust public docker registries or want to try it out on yourself, yo
 # prerequisites: git and docker are installed
 
 # clone this project
-git clone #TODO
-cd #TODO
+git clone git@github.com:hikkoiri/keycloak-multi-architecture.git
+cd keycloak-multi-architecture
 
 # make the script executable
 chmod +x buildKeycloak.sh
@@ -57,7 +59,7 @@ docker images
 
 ### Dockerhub
 
-On the other side you can look up #TODO Dockerhub and see if the image is already compiled for your target architecture.
+On the other side you can look up [Dockerhub](https://hub.docker.com/repository/docker/hikkoiri/keycloak-multi-architecture) and use the image, which is provided by me.
 
 ## Caveats
 
