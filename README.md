@@ -54,7 +54,11 @@ chmod +x buildKeycloak.sh
 ./buildKeycloak.sh multi-architecture-keycloak:0.0.1
 
 # et voila, the build should succeed and you can see your container image in the most recently created images
+# you may want to change the image name in this file
 docker images
+
+# just to be sure: you can test the built image with the the provided docker-compose sample
+docker-compose up
 ```
 
 ### Dockerhub
